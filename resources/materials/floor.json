@@ -1,0 +1,752 @@
+[
+    {
+        "id": 387,
+        "label": "Vk01 Nebbia",
+        "code": "et2",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2175?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.79275,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 384,
+        "label": "Tk05 Sabbia",
+        "code": "atc",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2176?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.78891,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 389,
+        "label": "Tk06 Marmorio",
+        "code": "ltn",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2174?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.78138,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 386,
+        "label": "Vk02 Avorio",
+        "code": "et1",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2178?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.7607,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 393,
+        "label": "Vk03 Grigio",
+        "code": "pdv",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2179?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.627,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 391,
+        "label": "Gk07 Ceppo",
+        "code": "p4c",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2173?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.52396,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 392,
+        "label": "Vk04 Grafite",
+        "code": "p5c",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2177?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-30T23:00:00Z",
+        "luminance": 0.43194,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 395,
+        "label": "Reverie",
+        "code": "rrk",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2141?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2023-01-01T00:00:00Z",
+        "luminance": null,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 403,
+        "label": "Limbo",
+        "code": "mco",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2186?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-12-31T23:00:00Z",
+        "luminance": 0.94226,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 398,
+        "label": "Laguna",
+        "code": "yrt",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2182?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-11-07T23:00:00Z",
+        "luminance": 0.90706,
+        "portfolios": "|USA|BELGICA|CANADA|CHEKIA|SUECIA|ISRAEL|ORIENTE MEDIO|JAPON|IRLANDA|TURQUIA|AUSTRIA|AFRICA|POLONIA|HOLANDA|FINLANDIA|DINAMARCA|UK|SUIZA|FRANCIA|MED&IRAN&INDIA|ALEMANIA|SUDAFRICA|ITALIA|"
+    },
+    {
+        "id": 394,
+        "label": "Marina",
+        "code": "rmr",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2183?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-10-23T22:00:00Z",
+        "luminance": 0.91771,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 404,
+        "label": "Lucid",
+        "code": "rbl",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2143?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-04T00:00:00Z",
+        "luminance": null,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 397,
+        "label": "Daze",
+        "code": "wkc",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2191?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-03T22:00:00Z",
+        "luminance": 0.93874,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 406,
+        "label": "Vigil",
+        "code": "vkc",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2187?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-03T22:00:00Z",
+        "luminance": 0.93874,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 390,
+        "label": "Morpheus",
+        "code": "msc",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2190?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-03T22:00:00Z",
+        "luminance": 0.88239,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 402,
+        "label": "Trance",
+        "code": "mca",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2188?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-03T22:00:00Z",
+        "luminance": 0.82715,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 383,
+        "label": "Albarium",
+        "code": "am2",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2202?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-03T22:00:00Z",
+        "luminance": 0.82247,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 385,
+        "label": "Somnia",
+        "code": "bmt",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.0.0-RELEASE/2189?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2022-07-03T22:00:00Z",
+        "luminance": 0.11158,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|SUDAFRICA|ZONA ANDINO|USA|BRASIL|ESPANA|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|ITALIA|"
+    },
+    {
+        "id": 4,
+        "label": "Uyuni",
+        "code": "bst",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/138?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.97287,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 47,
+        "label": "Rem",
+        "code": "lcn",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/140?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.93364,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 51,
+        "label": "Liquid Sky",
+        "code": "lnk",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/146?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.90217,
+        "portfolios": "|BELGICA|CANADA|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|PORTUGAL|USA|RUSIA|SUECIA|JAPON|TURQUIA|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 71,
+        "label": "Helena",
+        "code": "ewh",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/145?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.89283,
+        "portfolios": "|BELGICA|CANADA|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|PORTUGAL|USA|RUSIA|SUECIA|JAPON|TURQUIA|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 50,
+        "label": "Aeris",
+        "code": "lgt",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/142?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.86272,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 55,
+        "label": "Liquid Shell",
+        "code": "lsh",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/148?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.83549,
+        "portfolios": "|BELGICA|CANADA|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|PORTUGAL|USA|RUSIA|SUECIA|JAPON|TURQUIA|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 79,
+        "label": "Khalo",
+        "code": "mun",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/144?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.65268,
+        "portfolios": "|BELGICA|CANADA|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|PORTUGAL|USA|RUSIA|SUECIA|JAPON|TURQUIA|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 44,
+        "label": "Milar",
+        "code": "ilr",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/139?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.30818,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 3,
+        "label": "Bromo",
+        "code": "brm",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/161?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.25561,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 2,
+        "label": "Eter",
+        "code": "bdk",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/141?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.22733,
+        "portfolios": "|BELGICA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 59,
+        "label": "Laurent",
+        "code": "ptl",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/143?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.0972,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 54,
+        "label": "Liquid Embers",
+        "code": "lrs",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/147?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2020-03-02T00:00:00Z",
+        "luminance": 0.06703,
+        "portfolios": "|BELGICA|CANADA|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|PORTUGAL|USA|RUSIA|SUECIA|JAPON|TURQUIA|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 58,
+        "label": "Feroe",
+        "code": "pt2",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/152?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2019-10-15T00:00:00Z",
+        "luminance": 0.26884,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 351,
+        "label": "Tundra",
+        "code": "t19",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/458?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2019-09-30T00:00:00Z",
+        "luminance": 0.92703,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 57,
+        "label": "Baltic",
+        "code": "naz",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/153?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2019-09-15T00:00:00Z",
+        "luminance": 0.26545,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 62,
+        "label": "Sasea",
+        "code": "shl",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/155?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2019-04-01T00:00:00Z",
+        "luminance": 0.87992,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 63,
+        "label": "Kovik",
+        "code": "sva",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/156?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2019-04-01T00:00:00Z",
+        "luminance": 0.7526,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 60,
+        "label": "Vera",
+        "code": "pu1",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/178?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-15T00:00:00Z",
+        "luminance": 0.79755,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 80,
+        "label": "Olimpo",
+        "code": "oli",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/169?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.89686,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 52,
+        "label": "Lunar",
+        "code": "lnr",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/174?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.88152,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 82,
+        "label": "Bergen",
+        "code": "pxs",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/166?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.83873,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 81,
+        "label": "Arga",
+        "code": "pb6",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/165?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.80462,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 72,
+        "label": "Portum",
+        "code": "gdg",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/167?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.80127,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|DINAMARCA|LOWES|ALEMANIA|NORUEGA|"
+    },
+    {
+        "id": 84,
+        "label": "Taga",
+        "code": "txs",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/164?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.76312,
+        "portfolios": "|CANADA|CONO SUR|ISRAEL|ORIENTE MEDIO|IRLANDA|AFRICA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|DINAMARCA|LOWES|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 85,
+        "label": "Sogne",
+        "code": "vxs",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/168?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.75559,
+        "portfolios": "|PORTUGAL|USA|CANADA|CONO SUR|BRASIL|SUECIA|JAPON|ISRAEL|ORIENTE MEDIO|CENTRO AMERICA|TURQUIA|MEXICO|AFRICA|DINAMARCA|FINLANDIA|ASIA|LOWES|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|NORUEGA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|"
+    },
+    {
+        "id": 5,
+        "label": "Soke",
+        "code": "cv5",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/173?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.5775,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 53,
+        "label": "Laos",
+        "code": "los",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/175?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.33319,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 74,
+        "label": "Korso",
+        "code": "kxs",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/170?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-10-01T00:00:00Z",
+        "luminance": 0.30299,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 64,
+        "label": "Natura18",
+        "code": "dc1",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/295?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-07-01T00:00:00Z",
+        "luminance": 0.95164,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 56,
+        "label": "Nayla",
+        "code": "nay",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/315?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-01-01T00:00:00Z",
+        "luminance": 0.94354,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 73,
+        "label": "Vienna",
+        "code": "inn",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/313?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-01-01T00:00:00Z",
+        "luminance": 0.94299,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 61,
+        "label": "Kira",
+        "code": "pu4",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/296?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-01-01T00:00:00Z",
+        "luminance": 0.39842,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 38,
+        "label": "Fossil",
+        "code": "fss",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/314?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2018-01-01T00:00:00Z",
+        "luminance": 0.28749,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 24,
+        "label": "Opera",
+        "code": "dkp",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/300?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2017-10-15T00:00:00Z",
+        "luminance": 0.94934,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 20,
+        "label": "Nilium",
+        "code": "dkh",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/299?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2017-10-15T00:00:00Z",
+        "luminance": 0.92738,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 18,
+        "label": "Orix",
+        "code": "dkf",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/298?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2017-10-15T00:00:00Z",
+        "luminance": 0.43095,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 21,
+        "label": "Radium",
+        "code": "dki",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/297?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2017-10-15T00:00:00Z",
+        "luminance": 0.18354,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 48,
+        "label": "Trilium",
+        "code": "ld2",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/451?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2016-03-01T00:00:00Z",
+        "luminance": 0.36175,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 67,
+        "label": "Spectra",
+        "code": "dsp",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/456?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-12-01T00:00:00Z",
+        "luminance": 0.00251,
+        "portfolios": "|BELGICA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 1,
+        "label": "Aura15",
+        "code": "a15",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/444?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-09-01T00:00:00Z",
+        "luminance": 0.98209,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 66,
+        "label": "Halo",
+        "code": "dha",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/455?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-09-01T00:00:00Z",
+        "luminance": 0.93565,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 16,
+        "label": "Blanc Concrete",
+        "code": "dkb",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/448?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-09-01T00:00:00Z",
+        "luminance": 0.88042,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 27,
+        "label": "Entzo",
+        "code": "dkz",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/327?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-08-01T00:00:00Z",
+        "luminance": 0.97574,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 43,
+        "label": "Makai",
+        "code": "hd5",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/452?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-05-01T00:00:00Z",
+        "luminance": 0.84179,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 8,
+        "label": "Keon",
+        "code": "dcc",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/449?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-05-01T00:00:00Z",
+        "luminance": 0.57762,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 13,
+        "label": "Galema",
+        "code": "dgm",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/439?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-05-01T00:00:00Z",
+        "luminance": 0.41374,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|SUDAFRICA|ZONA ANDINO|PORTUGAL|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 22,
+        "label": "Kelya",
+        "code": "dkl",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/486?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2015-05-01T00:00:00Z",
+        "luminance": 0.14657,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 45,
+        "label": "Kairos",
+        "code": "kai",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/442?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2014-05-01T00:00:00Z",
+        "luminance": 0.94695,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 30,
+        "label": "Edora",
+        "code": "dra",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/328?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2014-05-01T00:00:00Z",
+        "luminance": 0.81021,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 37,
+        "label": "Zenith",
+        "code": "dze",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/485?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.96925,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 11,
+        "label": "Danae",
+        "code": "dda",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/447?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.76322,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 33,
+        "label": "Sirocco",
+        "code": "dsi",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/445?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.59118,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 34,
+        "label": "Strato",
+        "code": "dst",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/450?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.55467,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 17,
+        "label": "Keranium",
+        "code": "dke",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/487?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.21156,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 14,
+        "label": "Sirius",
+        "code": "dir",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/441?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.15334,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 12,
+        "label": "Domoos",
+        "code": "ddo",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/440?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2013-03-01T00:00:00Z",
+        "luminance": 0.14864,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|LATAM|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    },
+    {
+        "id": 46,
+        "label": "Kreta",
+        "code": "kre",
+        "image": "https://appscosentino.imgix.net/intranet/assets/public/v1.8.0-RELEASE/114?w=184&h=184&auto=compress,format&fit=crop",
+        "brand": "Dekton",
+        "releaseDate": "2000-12-31T00:00:00Z",
+        "luminance": 0.61832,
+        "portfolios": "|BELGICA|CANADA|CONO SUR|CHEKIA|ISRAEL|ORIENTE MEDIO|IRLANDA|AUSTRIA|AFRICA|HOLANDA|FINLANDIA|ASIA|UK|FRANCIA|MED&IRAN&INDIA|ESPAÑA|HOME DEPOT|SUDAFRICA|ZONA ANDINO|PORTUGAL|USA|RUSIA|BRASIL|SUECIA|JAPON|CENTRO AMERICA|TURQUIA|MEXICO|POLONIA|DINAMARCA|LOWES|SUIZA|ALEMANIA|NORUEGA|ITALIA|"
+    }
+]
