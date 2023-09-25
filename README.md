@@ -1,8 +1,8 @@
-# React + Vite
+## TODO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- render two objects with combinations for floor and top
+- render headless
+- store fov for the camera, and set it when rendering
+- load a sample model and apply the techniques 
+- get the actual model
+- render render render
