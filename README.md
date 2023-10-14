@@ -22,4 +22,4 @@
 blender -b C:\Users\Varaprasadh\workspace\lab\interio\resources\models\interior.blend -P C:\Users\Varaprasadh\workspace\lab\interio\resources\python\rendering_basic_interior_with_labels.py
 ```
 
-
+tests
