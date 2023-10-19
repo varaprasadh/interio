@@ -31,10 +31,10 @@ const tiles = [
         code: '04',
         image: tile4
     },
-    {
-        code: '05',
-        image: tile5
-    },
+    // {
+    //     code: '05',
+    //     image: tile5
+    // },
 ];
 
 // export const getImageURL = (floor, top) => {

@@ -26,9 +26,11 @@ export default function Visualizer(props) {
     const [tab, setTab] = useState('floor');
 
     const [img, setImg] = useState(getImageURL(floors[0], tops[0]));
+    const [loading, setLoading] = useState(false);
 
     useEffect(()=> {
         setImg(getImageURL(floor, top));
+        setLoading(true);
     }, [top, floor]);
 
     return (
@@ -42,7 +44,14 @@ export default function Visualizer(props) {
                 {tab === 'top' && <TilesPreviewGrid tiles={tops} activeItem={top} onSelect={top => setTop(top)}/>}
             </div>
             <div className="render-preview">
-                <img src={img} alt='rendered image'/>
+                <img src={img} alt='rendered image' onLoad={() => setLoading(false)}/>
+                {
+                    loading && (
+                        <div className='loader'>
+                            <div>Loading...</div>
+                        </div>
+                    )
+                }
             </div>
         </div>
     )
