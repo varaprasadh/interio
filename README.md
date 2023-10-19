@@ -23,3 +23,5 @@ blender -b C:\Users\Varaprasadh\workspace\lab\interio\resources\models\interior.
 ```
 
 tests
+
+blender -b C:\Users\saiki\Downloads\8tlocrt.blend1.blend -P C:\workspace\interio\resources\python\experimental.py

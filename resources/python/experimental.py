@@ -18,57 +18,42 @@ image_filenames = [f for f in os.listdir(textures_directory) if f.endswith(('.jp
 
 # Find the labeled objects ("wall" and "floor") in the existing model
 floor = bpy.data.objects.get("Plane.001")
-wall = bpy.data.objects.get("tabletop.001")
+wall1 = bpy.data.objects.get("tabletop.001")
+
+materials = [];
+
+
+for i, image_filename in enumerate(image_filenames):
+    wall_material = bpy.data.materials.new(name=f"Wall_Material_{i}")
+    wall_material.use_nodes = True
+    wall_nodes = wall_material.node_tree.nodes
+    wall_principled = wall_nodes.get("Principled BSDF")
+
+    # Create a texture node for the wall
+    wall_texture_node = wall_nodes.new(type='ShaderNodeTexImage')
+    wall_texture_node.location = (-200, 0)
+
+    # Load the image texture for the wall
+    wall_image_path = os.path.join(textures_directory, image_filename)
+    wall_texture = bpy.data.textures.new(f"Wall_Texture_{i}", type='IMAGE')
+    wall_texture.image = bpy.data.images.load(wall_image_path)
+
+    # Link the texture node to the shader node for the wall
+    wall_texture_node.image = wall_texture.image
+    wall_material.node_tree.links.new(wall_texture_node.outputs[0], wall_principled.inputs["Base Color"])
+    materials.append(wall_material)
 
 if wall1 and floor:
     # Loop through each texture for the wall
     for i, wall_image_filename in enumerate(image_filenames):
         # Loop through each texture for the floor
         for j, floor_image_filename in enumerate(image_filenames):
-            # Create a new material for the wall
-            wall_material = bpy.data.materials.new(name=f"Wall_Material_{i}")
-            wall_material.use_nodes = True
-            wall_nodes = wall_material.node_tree.nodes
-            wall_principled = wall_nodes.get("Principled BSDF")
-
-            # Create a texture node for the wall
-            wall_texture_node = wall_nodes.new(type='ShaderNodeTexImage')
-            wall_texture_node.location = (-200, 0)
-
-            # Load the image texture for the wall
-            wall_image_path = os.path.join(textures_directory, wall_image_filename)
-            wall_texture = bpy.data.textures.new(f"Wall_Texture_{i}", type='IMAGE')
-            wall_texture.image = bpy.data.images.load(wall_image_path)
-
-            # Link the texture node to the shader node for the wall
-            wall_texture_node.image = wall_texture.image
-            wall_material.node_tree.links.new(wall_texture_node.outputs[0], wall_principled.inputs["Base Color"])
 
             # Assign the material to the wall
-            wall1.data.materials.append(wall_material)
-
-
-            # Create a new material for the floor
-            floor_material = bpy.data.materials.new(name=f"Floor_Material_{j}")
-            floor_material.use_nodes = True
-            floor_nodes = floor_material.node_tree.nodes
-            floor_principled = floor_nodes.get("Principled BSDF")
-
-            # Create a texture node for the floor
-            floor_texture_node = floor_nodes.new(type='ShaderNodeTexImage')
-            floor_texture_node.location = (-200, 0)
-
-            # Load the image texture for the floor
-            floor_image_path = os.path.join(textures_directory, floor_image_filename)
-            floor_texture = bpy.data.textures.new(f"Floor_Texture_{j}", type='IMAGE')
-            floor_texture.image = bpy.data.images.load(floor_image_path)
-
-            # Link the texture node to the shader node for the floor
-            floor_texture_node.image = floor_texture.image
-            floor_material.node_tree.links.new(floor_texture_node.outputs[0], floor_principled.inputs["Base Color"])
+            wall1.data.materials.append(materials[i])
 
             # Assign the material to the floor
-            floor.data.materials.append(floor_material)
+            floor.data.materials.append(materials[j])
 
             # Set the output file path for this render
             output_filepath = os.path.join(output_directory, f"render_{i:02d}_{j:02d}.png")

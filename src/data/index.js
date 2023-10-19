@@ -44,7 +44,7 @@ const tiles = [
 // }
 
 export const getImageURL = (floor, top) => {
-    return new URL(`../assets/renders/render_${floor.code}_${top.code}.png`, import.meta.url).href;
+    return new URL(`../assets/renders/render_${top.code}_${floor.code}.png`, import.meta.url).href;
 }
 
 // export const getFloors = () => floors;
