@@ -8,6 +8,9 @@ import tile3 from "../assets/tiles/03.jpg";
 import tile4 from "../assets/tiles/04.jpg";
 import tile5 from "../assets/tiles/05.jpg";
 
+import tilesInfo from './tiles_info.json';
+
+
 // import render_00_00 from "..\assets\renders\render_00_00.png";
 
 const tiles = [
@@ -31,10 +34,10 @@ const tiles = [
         code: '04',
         image: tile4
     },
-    // {
-    //     code: '05',
-    //     image: tile5
-    // },
+    {
+        code: '05',
+        image: tile5
+    },
 ];
 
 // export const getImageURL = (floor, top) => {
@@ -43,15 +46,42 @@ const tiles = [
 //     return imageURL;
 // }
 
+// export const getImageURL = (floor, top) => {
+//     return new URL(`../assets/renders/render_${top.code}_${floor.code}.png`, import.meta.url).href;
+// }
+
+
 export const getImageURL = (floor, top) => {
-    return new URL(`../assets/renders/render_${top.code}_${floor.code}.png`, import.meta.url).href;
+    console.log({
+        floor,
+        top
+    });
+    // const name = top.name.split(".").slice(0, -1).join("");
+    const fileCode = top.name.replace(/ /g, '_').toUpperCase();
+
+   
+    console.log("debug: " + `../assets/renders/render_countertop_${fileCode}_floor_NONE.png`);
+    return new URL(`../assets/renders/render_countertop_${fileCode}_floor_NONE.png`, import.meta.url).href;
 }
 
 // export const getFloors = () => floors;
 // export const getTops = () => tops;
 
 export const getFloors = () => tiles;
-export const getTops = () => tiles;
+export const getTops = () => tilesInfo.map(info => {
+    const name = info.filename.split(".").slice(0, -1).join("");
+    const fileCode = name.replace(/ /g, '_').toUpperCase();
+    const fileURL = `../assets/tiles_lq/${fileCode}.png`;
+
+    console.log(info, fileURL);
+    return (
+        {
+            code: info.code,
+            name: name,
+            image: new URL(fileURL, import.meta.url).href
+        }
+    );
+});
 
 
 export const getAllImageURLs = () => {
@@ -65,3 +95,5 @@ export const getAllImageURLs = () => {
     }
     return imageURLs;
 }
+
+

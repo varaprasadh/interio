@@ -24,6 +24,7 @@
     font-size: 1rem;
     /* font-weight: bold; */
 }
+
 .render-preview img {
     width: 100%;
     object-fit: cover;
@@ -49,19 +50,23 @@
     box-sizing: border-box;
     cursor: pointer;
 }
+.tile-img {
+    height: 100%;
+}
 
 .tile img {
     width: 100%;
     height: 100%;
 }
 
-.tile.active{
+.tile.active {
     border: 1px solid black;
 }
 
 .tabs {
     display: flex;
 }
+
 .tab {
     padding: 0.5rem 1rem;
     text-align: center;

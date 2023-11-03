@@ -23,9 +23,10 @@ function TilesPreviewGrid({ tiles, activeItem, onSelect = () => {} }){
 export default function Visualizer(props) {
     const [floor, setFloor] = useState(floors[0]);
     const [top, setTop] = useState(tops[0]);
-    const [tab, setTab] = useState('floor');
+    const [tab, setTab] = useState('top');
 
     const [img, setImg] = useState(getImageURL(floors[0], tops[0]));
+
     const [loading, setLoading] = useState(false);
 
     useEffect(()=> {
@@ -37,14 +38,14 @@ export default function Visualizer(props) {
         <div className="container">
             <div className="tiles-preview" >
                 <div className="tabs">
-                    <div className={`tab ${tab === 'floor' && 'active'}`} onClick={() => setTab('floor')}>Floors</div>
+                    {/* <div className={`tab ${tab === 'floor' && 'active'}`} onClick={() => setTab('floor')}>Floors</div> */}
                     <div className={`tab ${tab === 'top' && 'active'}`} onClick={()=>setTab('top')}>CounterTop</div>
                 </div>
-                {tab === 'floor' && <TilesPreviewGrid tiles={floors} activeItem={floor} onSelect={(floor) => setFloor(floor)}/>}
+                {/* {tab === 'floor' && <TilesPreviewGrid tiles={floors} activeItem={floor} onSelect={(floor) => setFloor(floor)}/>} */}
                 {tab === 'top' && <TilesPreviewGrid tiles={tops} activeItem={top} onSelect={top => setTop(top)}/>}
             </div>
             <div className="render-preview">
-                <img src={img} alt='rendered image' onLoad={() => setLoading(false)}/>
+                <img src={img} alt='rendered image' onLoad={() => setLoading(false)} />
                 {
                     loading && (
                         <div className='loader'>
