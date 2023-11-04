@@ -71,7 +71,7 @@ export const getFloors = () => tiles;
 export const getTops = () => tilesInfo.map(info => {
     const name = info.filename.split(".").slice(0, -1).join("");
     const fileCode = name.replace(/ /g, '_').toUpperCase();
-    const fileURL = `../assets/tiles_lq/${fileCode}.png`;
+    const fileURL = `../assets/tiles_lq/${fileCode}.PNG`;
 
     console.log(info, fileURL);
     return (
