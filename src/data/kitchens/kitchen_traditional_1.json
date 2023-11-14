@@ -1,0 +1,33 @@
+{
+    "name": "Traditional Kitchen 1",
+    "type": "kitchen",
+    "code": "traditional_kitchen_1",
+    "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699967090/renders/kitchen_traditional_1/fiaqw8xftzd52ip05abi.png",
+    "variations": [
+        {
+            "floor": null,
+            "counterTop": "aqua_beige",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699967070/renders/kitchen_traditional_1/gsvjeoyaaids98dvd0or.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "cl_antique",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699967090/renders/kitchen_traditional_1/fiaqw8xftzd52ip05abi.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "carara_magical_grey",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699967133/renders/kitchen_traditional_1/owcybui18fz2lxxqvl8e.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "galaxy_beige",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699967163/renders/kitchen_traditional_1/kaghvydysgflgogsd6uu.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "grit_simply_white",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699967184/renders/kitchen_traditional_1/auh7hnbh55jlzfiiro0n.png"
+        }
+    ]
+}

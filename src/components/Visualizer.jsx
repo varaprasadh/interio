@@ -1,18 +1,36 @@
 import { useEffect, useState } from 'react';
-import './visualizer.css';
-import { getFloors, getImageURL, getTops } from '../data';
+import { Tabs } from 'antd';
 
-const floors = getFloors();
-const tops = getTops();
+import './visualizer.css';
+import { getTiles, getAllModels, getPreviewImageByParams } from '../data';
+
+import ModelPreviewList from "./ModelPreviewList/Index";
+import { CheckOutlined } from '@ant-design/icons';
+
+
+const tiles = getTiles();
+
+const models = getAllModels();
+
 
 function TilesPreviewGrid({ tiles, activeItem, onSelect = () => {} }){
     return (
         <div className="tiles-grid">
             {
                 tiles.map(tile => (
-                    <div key={tile.key} className={`tile ${activeItem.code === tile.code && 'active'}`} onClick={()=>onSelect(tile)}>
+                    <div key={tile.key} className="tile" onClick={()=>onSelect(tile)}>
                         <div className="tile-img">
-                            <img src={tile.image} alt="tile" />
+                            {
+                                tile.code === activeItem.code && (
+                                    <div className="tile-img-overlay">
+                                        <CheckOutlined style={{ fontSize: "2rem", color: "white" }} />
+                                    </div>
+                                )
+                            }
+                            <img src={tile.preview} alt="tile" />
+                        </div>
+                        <div className="tile-img-label">
+                            {tile.name}
                         </div>
                     </div>
                 ))
@@ -20,30 +38,66 @@ function TilesPreviewGrid({ tiles, activeItem, onSelect = () => {} }){
         </div>
     )
 }
-export default function Visualizer(props) {
-    const [floor, setFloor] = useState(floors[0]);
-    const [top, setTop] = useState(tops[0]);
-    const [tab, setTab] = useState('top');
 
-    const [img, setImg] = useState(getImageURL(floors[0], tops[0]));
+function CustomizingBar({ 
+        onTileSelect = ({ type, tile }) => {},
+        onModelSelect = (model) => {},
+        currentCounterTop = {},
+        currentFloor = {},
+        currentModel = {},
+    }) {
+    const items = [
+        {
+            key: '1',
+            label: 'Colors',
+            children: <TilesPreviewGrid tiles={tiles} activeItem={currentCounterTop} onSelect={tile => onTileSelect("counterTop", tile)} />,
+        },
+        {
+            key: '2',
+            label: 'Ambients',
+            children: <ModelPreviewList onSelectModel={onModelSelect} activeModel={currentModel}/>,
+        },
+    ]
+    const onChange = (key) => {
+        console.log(key);
+    };
+
+    return (
+        <div className="tiles-preview" >
+            <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
+        </div>
+    )
+}
+
+export default function Visualizer(props) {
+
+
+    // select a default model
+    const [model, setModel] = useState(models[0]);
+    const [counterTop, setCounterTop] = useState(tiles[0]);
+    const [floor, setFloor] = useState(null);
+
+
+    const [img, setImg] = useState(model.preview);
 
     const [loading, setLoading] = useState(false);
 
+    const onTileSelect = (type, tile) => {
+        if (type === "counterTop") {
+            setCounterTop(tile);
+        } else {
+            setFloor(tile);
+        }
+    }
+
     useEffect(()=> {
-        setImg(getImageURL(floor, top));
-        setLoading(true);
-    }, [top, floor]);
+        const renderInfo = getPreviewImageByParams({ modelCode: model.code, counterTop: counterTop.code });
+        console.log({ renderInfo, model, counterTop });
+        setImg(renderInfo.render);
+    }, [floor, counterTop, model])
 
     return (
         <div className="container">
-            <div className="tiles-preview" >
-                <div className="tabs">
-                    {/* <div className={`tab ${tab === 'floor' && 'active'}`} onClick={() => setTab('floor')}>Floors</div> */}
-                    <div className={`tab ${tab === 'top' && 'active'}`} onClick={()=>setTab('top')}>CounterTop</div>
-                </div>
-                {/* {tab === 'floor' && <TilesPreviewGrid tiles={floors} activeItem={floor} onSelect={(floor) => setFloor(floor)}/>} */}
-                {tab === 'top' && <TilesPreviewGrid tiles={tops} activeItem={top} onSelect={top => setTop(top)}/>}
-            </div>
             <div className="render-preview">
                 <img src={img} alt='rendered image' onLoad={() => setLoading(false)} />
                 {
@@ -54,6 +108,13 @@ export default function Visualizer(props) {
                     )
                 }
             </div>
+            <CustomizingBar
+                onTileSelect={onTileSelect}
+                currentCounterTop={counterTop}
+                currentFloor={floor}
+                currentModel={model}
+                onModelSelect={model => setModel(model)}
+            />
         </div>
     )
 }

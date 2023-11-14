@@ -1,0 +1,34 @@
+{
+    "name": "Modern Kitchen 1",
+    "type": "kitchen",
+    "code": "modern_kitchen_1",
+    "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699966718/renders/kitchen_modern_1/bhins0csf70erl3ahuxh.png",
+    "variations": [
+        {
+            "floor": null,
+            "counterTop": "aqua_beige",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699966420/renders/kitchen_modern_1/lpei61xyuxlq18lza5pt.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "cl_antique",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699966718/renders/kitchen_modern_1/bhins0csf70erl3ahuxh.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "carara_magical_grey",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699966854/renders/kitchen_modern_1/plbwjvdwsme7fhvoeamo.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "galaxy_beige",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699966877/renders/kitchen_modern_1/ps1mixp5lrep8yxm0ieh.png"
+        },
+        {
+            "floor": null,
+            "counterTop": "grit_simply_white",
+            "render": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699966901/renders/kitchen_modern_1/i4tdubui9tqmhc0oreew.png"
+        }
+    ]
+}
+

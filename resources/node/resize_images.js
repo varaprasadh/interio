@@ -3,14 +3,14 @@ const fs = require('fs');
 const path = require('path');
 
 // Directory containing your images
-const inputDirectory = 'C:\\workspace\\interio\\resources\\materials\\tiles_hq';
+const inputDirectory = 'C:\\Users\\Varaprasadh\\workspace\\lab\\interio\\resources\\node\\target';
 // Directory to save the resized images
-const outputDirectory = 'C:\\workspace\\interio\\resources\\materials\\tiles_lq';
+const outputDirectory = `C:\\Users\\Varaprasadh\\workspace\\lab\\interio\\resources\\node\\resized`;
 
 // Define the medium resolution (adjust as needed)
 const targetSize = {
-  width: 2048,
-  height: 2048,
+  width: 500,
+  height: 500,
 };
 
 // Create the output directory if it doesn't exist

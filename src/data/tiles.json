@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Aqua Beige",
+        "code": "aqua_beige",
+        "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699969204/tiles/xmbdb5t0naqnenp1zhxl.png"
+    },
+    {
+        "name": "CL Antique",
+        "code": "cl_antique",
+        "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699969247/tiles/esnn5dp0vzn4eaxkc3hc.png"
+    },
+    {
+        "name": "Carara Magical Grey",
+        "code": "carara_magical_grey",
+        "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699969221/tiles/rsyptt4uibihpmd02gtb.png"
+    },
+    {
+        "name": "Galaxy Beige",
+        "code": "galaxy_beige",
+        "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699969267/tiles/pkknepjhoanjbesewfdb.png"
+    },
+    {
+        "name": "Grit Simply White",
+        "code": "grit_simply_white",
+        "preview": "https://res.cloudinary.com/dfb9o4nze/image/upload/v1699969291/tiles/oqzkac1c1c16u3xzo63w.png"
+    }
+    
+]

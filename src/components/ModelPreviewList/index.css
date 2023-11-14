@@ -1,0 +1,30 @@
+.mpl-item {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin: 0.5rem 0.2rem;
+}
+
+.mpl-item.img {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.mpl-item.img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+
+.mpl-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0px;
+    background-color: rgb(0 0 0 / 69%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
