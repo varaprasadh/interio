@@ -1,3 +1,8 @@
+
+.mpl-wrapper {
+    /* background-color: red; */
+}
+
 .mpl-item {
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
@@ -8,6 +13,9 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    /* width: 315px; */
+    /* height: 190px; */
+    max-height: 200px;
 }
 
 .mpl-item.img > img {

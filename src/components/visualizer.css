@@ -1,13 +1,42 @@
 .container {
-    background: rgb(234, 250, 250);
     display: flex;
-    max-height: 100vh;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+    padding: 0.5rem;
+    height: 60px;
+    color: rgb(9, 9, 10);
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.navbar .subtitle {
+    margin-left: 1rem;
+    color: rgb(1, 1, 1);
 }
 
 .render-preview {
     flex: 1;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
+
+.render-preview-img {
+    flex: 1;
+    display: flex;
+    /* overflow: hidden; */
+}
+
+
 
 .loader {
     position: absolute;
@@ -28,14 +57,17 @@
 .render-preview img {
     width: 100%;
     object-fit: cover;
-    height: 100%;
+    flex: 1;
 }
 
 .tiles-preview {
-    width: 350px;
-    padding: 0.5rem;
+    width: 370px;
+    /* padding: 0rem 0.5rem; */
     overflow: scroll;
     background: white;
+    position: relative;
+    box-sizing: border-box;
+    border-left: 1px solid black;
 }
 
 .tiles-preview::-webkit-scrollbar {
@@ -49,14 +81,16 @@
 }
 
 .tile {
-    width: 150px;
-    height: 170px;
+    width: 90px;
+    /* height: 70px; */
     margin: 0.5rem;
     box-sizing: border-box;
     cursor: pointer;
 }
 .tile-img {
-    height: 150px;
+    height: 100%;
+    width: 90px;
+    height: 70px;
     position: relative;
 }
 
@@ -98,10 +132,50 @@
     color: white;
 }
 
+.customizer-current-color-section {
+    padding: 1rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    /* border-top: 1px solid rgb(0, 0, 0); */
+}
+
+.customizer-color-chooser {
+    padding: 1rem;
+}
+.customizer-label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.customizer-current-color-preview {
+    width: 140px;
+    height: 100px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.customizer-sub-label {
+    font-size: 1rem;
+}
+.customizer-current-color-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.customizer-current-color-preview > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     .container {
         flex-direction: column;
+    }
+    .render-preview {
+        max-height: 400px;
     }
     .tiles-preview {
         width: 100%;

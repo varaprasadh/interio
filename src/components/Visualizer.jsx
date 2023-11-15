@@ -15,26 +15,49 @@ const models = getAllModels();
 
 function TilesPreviewGrid({ tiles, activeItem, onSelect = () => {} }){
     return (
-        <div className="tiles-grid">
-            {
-                tiles.map(tile => (
-                    <div key={tile.key} className="tile" onClick={()=>onSelect(tile)}>
-                        <div className="tile-img">
-                            {
-                                tile.code === activeItem.code && (
-                                    <div className="tile-img-overlay">
-                                        <CheckOutlined style={{ fontSize: "2rem", color: "white" }} />
-                                    </div>
-                                )
-                            }
-                            <img src={tile.preview} alt="tile" />
+        <div className="customizer-colors-tab">
+            <div className="customizer-current-color-section">
+                <div className="customizer-label">
+                    Used Colors
+                </div>
+                <div className="customizer-current-colors">
+                    <div className="customizer-current-color">
+                        <div className="customizer-sub-label">Counter Top</div>
+                        <div className="customizer-current-color-preview">
+                            <img src={activeItem.preview} alt={activeItem.name} />
                         </div>
-                        <div className="tile-img-label">
-                            {tile.name}
+                        <div className="customizer-current-color-name">
+                            { activeItem.name}
                         </div>
                     </div>
-                ))
-            }
+                </div>
+            </div>
+            <div className="customizer-color-chooser">
+                <div className="customizer-label">
+                    Select Color
+                </div>
+                <div className="tiles-grid">
+                    {
+                        tiles.map(tile => (
+                            <div key={tile.key} className="tile" onClick={() => onSelect(tile)}>
+                                <div className="tile-img">
+                                    {
+                                        tile.code === activeItem.code && (
+                                            <div className="tile-img-overlay">
+                                                <CheckOutlined style={{ fontSize: "2rem", color: "white" }} />
+                                            </div>
+                                        )
+                                    }
+                                    <img src={tile.preview} alt="tile" />
+                                </div>
+                                <div className="tile-img-label">
+                                    {tile.name}
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
         </div>
     )
 }
@@ -62,9 +85,26 @@ function CustomizingBar({
         console.log(key);
     };
 
+    const renderTabBar = (props, DefaultTabBar) => (
+            <div style={{
+                position: 'sticky', zIndex: 1, top: 0, width: '100%',
+                padding: '0.5rem',
+                background: 'white'
+            }}>
+                <DefaultTabBar {...props} style={{
+                    top: 20,
+                }} />
+            </div>
+    );
+
     return (
         <div className="tiles-preview" >
-            <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
+            <Tabs
+                defaultActiveKey="1"
+                items={items} 
+                onChange={onChange}
+                renderTabBar={renderTabBar}
+            />
         </div>
     )
 }
@@ -99,7 +139,13 @@ export default function Visualizer(props) {
     return (
         <div className="container">
             <div className="render-preview">
-                <img src={img} alt='rendered image' onLoad={() => setLoading(false)} />
+                <div className='navbar'>
+                   <span className="logo">AG Stones</span>
+                   <span className="subtitle">Online Visualizer</span>
+                </div>
+                <div className="render-preview-img">
+                    <img src={img} alt='rendered image' onLoad={() => setLoading(false)} />
+                </div>
                 {
                     loading && (
                         <div className='loader'>
