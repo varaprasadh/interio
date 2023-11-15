@@ -54,37 +54,44 @@ export default function Index() {
             </div>
             <div className="content-wrapper">
                 <div className="content">
-                    <div className="left-section">
-                        <div className="logo-section">
-                            <span className="logo">
-                                AG Stones
-                            </span>
-                            <span></span>
+                    <div className="content-top">
+                        <div className="left-section">
+                            <div className="logo-section">
+                                <div className="logo">
+                                    AG Stones
+                                </div>
+                                <div className="logo-sub">
+                                    Online visualizer
+                                </div>
+                                <span></span>
+                            </div>
                         </div>
+                        <div className="init-details right-section">
+                            <div className="country">
+                                <div className="label">Country</div>
+                                <Select
+                                    defaultValue="US"
+                                    style={{ width: '100%' }}
+                                    onChange={onCountryChange}
+                                    options={countryOptions}
+                                />
+                            </div>
+                            <div className="language">
+                                <div className="label">Language</div>
+                                <Select
+                                    defaultValue={language}
+                                    style={{ width: '100%' }}
+                                    onChange={onLanguageChange}
+                                    options={languages}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="content-bottom">
                         <div className="action-button">
                             <div className="btn" onClick={onStart}>
                                 START
                             </div>
-                        </div>
-                    </div>
-                    <div className="init-details right-section">
-                        <div className="country">
-                            <div className="label">Country</div>
-                            <Select
-                                defaultValue="US"
-                                style={{ width: '100%' }}
-                                onChange={onCountryChange}
-                                options={countryOptions}
-                            />
-                        </div>
-                        <div className="language">
-                            <div className="label">Language</div>
-                            <Select
-                                defaultValue={language}
-                                style={{ width: '100%' }}
-                                onChange={onLanguageChange}
-                                options={languages}
-                            />
                         </div>
                     </div>
                 </div>
