@@ -1,0 +1,739 @@
+[
+    {
+        "id": 40,
+        "label": "COUNTRY.FINLAND",
+        "portfolio": "FINLANDIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 61,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 40
+            },
+            {
+                "id": 63,
+                "label": "LANGUAGE.FI",
+                "code": "FI",
+                "ui": "en",
+                "countryId": 40
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "label": "COUNTRY.NORGE",
+        "portfolio": "NORUEGA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 62,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 41
+            },
+            {
+                "id": 64,
+                "label": "LANGUAGE.NO",
+                "code": "NO",
+                "ui": "en",
+                "countryId": 41
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "label": "COUNTRY.FRANCE",
+        "portfolio": "FRANCIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 65,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 42
+            },
+            {
+                "id": 67,
+                "label": "LANGUAGE.FR",
+                "code": "FR",
+                "ui": "fr",
+                "countryId": 42
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "label": "COUNTRY.POLAND",
+        "portfolio": "POLONIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 66,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 43
+            },
+            {
+                "id": 68,
+                "label": "LANGUAGE.PL",
+                "code": "PL",
+                "ui": "en",
+                "countryId": 43
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "label": "COUNTRY.CHEKIA",
+        "portfolio": "CHEKIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 69,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 44
+            },
+            {
+                "id": 71,
+                "label": "LANGUAGE.CS",
+                "code": "CS",
+                "ui": "en",
+                "countryId": 44
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "label": "COUNTRY.DEUTSCHLAND",
+        "portfolio": "ALEMANIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 70,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 45
+            },
+            {
+                "id": 72,
+                "label": "LANGUAGE.DE",
+                "code": "DE",
+                "ui": "de",
+                "countryId": 45
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "label": "COUNTRY.PORTUGAL",
+        "portfolio": "PORTUGAL",
+        "market": "IBERIA",
+        "languages": [
+            {
+                "id": 73,
+                "label": "LANGUAGE.PT",
+                "code": "PT",
+                "ui": "pt",
+                "countryId": 46
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "label": "COUNTRY.CENTRO_AMERICA",
+        "portfolio": "CENTRO AMERICA",
+        "market": "LATAM",
+        "languages": [
+            {
+                "id": 74,
+                "label": "LANGUAGE.ES",
+                "code": "ES",
+                "ui": "es",
+                "countryId": 47
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "label": "COUNTRY.RUSSIAN_FED",
+        "portfolio": "RUSIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 75,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 48
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "label": "COUNTRY.JAPAN",
+        "portfolio": "JAPON",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 76,
+                "label": "LANGUAGE.JA",
+                "code": "JA",
+                "ui": "en",
+                "countryId": 49
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "label": "COUNTRY.SINGAPORE",
+        "portfolio": "ASIA",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 77,
+                "label": "LANGUAGE.EN",
+                "code": "en",
+                "ui": "en",
+                "countryId": 50
+            },
+            {
+                "id": 79,
+                "label": "LANGUAGE.ID",
+                "code": "ID",
+                "ui": "en",
+                "countryId": 50
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "label": "COUNTRY.INDIA",
+        "portfolio": "MED&IRAN&INDIA",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 78,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 51
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "label": "COUNTRY.IRELAND",
+        "portfolio": "IRLANDA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 80,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 52
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "label": "COUNTRY.SOUTH_AFRICA",
+        "portfolio": "SUDAFRICA",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 81,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 53
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "label": "COUNTRY.ISRAEL",
+        "portfolio": "ISRAEL",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 82,
+                "label": "LANGUAGE.HE",
+                "code": "HE",
+                "ui": "en",
+                "countryId": 54
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "label": "COUNTRY.AFRICA",
+        "portfolio": "AFRICA",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 83,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 55
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "label": "COUNTRY.ITALY",
+        "portfolio": "ITALIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 84,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 56
+            },
+            {
+                "id": 85,
+                "label": "LANGUAGE.IT",
+                "code": "IT",
+                "ui": "it",
+                "countryId": 56
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "label": "COUNTRY.ORIENTE_MEDIO",
+        "portfolio": "ORIENTE MEDIO",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 86,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 57
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "label": "COUNTRY.MEXICO",
+        "portfolio": "MEXICO",
+        "market": "LATAM",
+        "languages": [
+            {
+                "id": 87,
+                "label": "LANGUAGE.ES",
+                "code": "ES",
+                "ui": "es",
+                "countryId": 58
+            },
+            {
+                "id": 89,
+                "label": "LANGUAGE.ES-MX",
+                "code": "ES-MX",
+                "ui": "es",
+                "countryId": 58
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "label": "COUNTRY.UNITED_STATES",
+        "portfolio": "USA",
+        "market": "USA",
+        "languages": [
+            {
+                "id": 88,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 59
+            },
+            {
+                "id": 90,
+                "label": "LANGUAGE.EN-US",
+                "code": "EN-US",
+                "ui": "en",
+                "countryId": 59
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "label": "COUNTRY.AUSTRIA",
+        "portfolio": "AUSTRIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 91,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 60
+            },
+            {
+                "id": 92,
+                "label": "LANGUAGE.DE",
+                "code": "DE",
+                "ui": "de",
+                "countryId": 60
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "label": "COUNTRY.BELGIUM",
+        "portfolio": "BELGICA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 94,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 62
+            },
+            {
+                "id": 96,
+                "label": "LANGUAGE.FR",
+                "code": "FR",
+                "ui": "fr",
+                "countryId": 62
+            },
+            {
+                "id": 97,
+                "label": "LANGUAGE.NL",
+                "code": "NL",
+                "ui": "nl",
+                "countryId": 62
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "label": "COUNTRY.LOWES",
+        "portfolio": "LOWES",
+        "market": "USA",
+        "languages": [
+            {
+                "id": 95,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 63
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "label": "COUNTRY.CONO_SUR",
+        "portfolio": "CONO SUR",
+        "market": "LATAM",
+        "languages": [
+            {
+                "id": 98,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "es",
+                "countryId": 64
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "label": "COUNTRY.HOLAND",
+        "portfolio": "HOLANDA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 99,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 65
+            },
+            {
+                "id": 101,
+                "label": "LANGUAGE.NL",
+                "code": "NL",
+                "ui": "nl",
+                "countryId": 65
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "label": "COUNTRY.OTHER_COUNTRIES",
+        "portfolio": "ISRAEL",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 100,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 66
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "label": "COUNTRY.SPAIN",
+        "portfolio": "ESPAÑA",
+        "market": "IBERIA",
+        "languages": [
+            {
+                "id": 103,
+                "label": "LANGUAGE.ES",
+                "code": "ES",
+                "ui": "es",
+                "countryId": 67
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "label": "COUNTRY.BRAZIL",
+        "portfolio": "BRASIL",
+        "market": "LATAM",
+        "languages": [
+            {
+                "id": 102,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 68
+            },
+            {
+                "id": 104,
+                "label": "LANGUAGE.PT",
+                "code": "PT",
+                "ui": "pt",
+                "countryId": 68
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "label": "COUNTRY.SWEDEN",
+        "portfolio": "SUECIA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 105,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 69
+            },
+            {
+                "id": 107,
+                "label": "LANGUAGE.SV",
+                "code": "SV",
+                "ui": "en",
+                "countryId": 69
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "label": "COUNTRY.CANADA",
+        "portfolio": "CANADA",
+        "market": "USA",
+        "languages": [
+            {
+                "id": 106,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 70
+            },
+            {
+                "id": 108,
+                "label": "LANGUAGE.EN-CA",
+                "code": "EN-CA",
+                "ui": "en",
+                "countryId": 70
+            },
+            {
+                "id": 109,
+                "label": "LANGUAGE.FR-CA",
+                "code": "FR-CA",
+                "ui": "fr",
+                "countryId": 70
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "label": "COUNTRY.SWITZERLAND",
+        "portfolio": "SUIZA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 110,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 71
+            },
+            {
+                "id": 111,
+                "label": "LANGUAGE.DE",
+                "code": "DE",
+                "ui": "de",
+                "countryId": 71
+            },
+            {
+                "id": 113,
+                "label": "LANGUAGE.DE-CH",
+                "code": "DE-CH",
+                "ui": "de",
+                "countryId": 71
+            },
+            {
+                "id": 114,
+                "label": "LANGUAGE.IT",
+                "code": "IT",
+                "ui": "it",
+                "countryId": 71
+            },
+            {
+                "id": 116,
+                "label": "LANGUAGE.IT-CH",
+                "code": "IT-CH",
+                "ui": "it",
+                "countryId": 71
+            },
+            {
+                "id": 117,
+                "label": "LANGUAGE.FR-CH",
+                "code": "FR-CH",
+                "ui": "fr",
+                "countryId": 71
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "label": "COUNTRY.DENMARK",
+        "portfolio": "DINAMARCA",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 112,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 72
+            },
+            {
+                "id": 115,
+                "label": "LANGUAGE.DA",
+                "code": "DA",
+                "ui": "en",
+                "countryId": 72
+            },
+            {
+                "id": 120,
+                "label": "LANGUAGE.FR",
+                "code": "FR",
+                "ui": "fr",
+                "countryId": 72
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "label": "COUNTRY.TURKEY",
+        "portfolio": "TURQUIA",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 118,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 73
+            },
+            {
+                "id": 119,
+                "label": "LANGUAGE.TR",
+                "code": "TR",
+                "ui": "en",
+                "countryId": 73
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "label": "COUNTRY.UNITED_KINGDOM",
+        "portfolio": "UK",
+        "market": "EUROPA",
+        "languages": [
+            {
+                "id": 121,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 74
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "label": "COUNTRY.UAE",
+        "portfolio": "EMIRATOS ARABES",
+        "market": "ROW",
+        "languages": [
+            {
+                "id": 122,
+                "label": "LANGUAGE.EN",
+                "code": "EN",
+                "ui": "en",
+                "countryId": 75
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "label": "COUNTRY.ZONA_ANDINA",
+        "portfolio": "ZONA ANDINO",
+        "market": "LATAM",
+        "languages": [
+            {
+                "id": 123,
+                "label": "LANGUAGE.ES",
+                "code": "ES",
+                "ui": "es",
+                "countryId": 76
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "label": "COUNTRY.LATAM",
+        "portfolio": "LATAM",
+        "market": "LATAM",
+        "languages": [
+            {
+                "id": 124,
+                "label": "LANGUAGE.ES",
+                "code": "ES",
+                "ui": "es",
+                "countryId": 77
+            }
+        ]
+    }
+]
